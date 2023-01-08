@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+.container{
+display: flex;
+flex-direction: column;
+margin:15% auto;
+background-color: hsl(0, 0%, 100%);
+width: 350px;
+border-radius: 16px;
+}
+.qr{
+text-align: center;
+margin-top: 22px;
+}
+.qrimg{
+width:90%;
+border-radius: 8px;
+}
+.text{
+margin: 22px;
+}
+.header{
+text-align: center;
+font-weight: 700;
+font-size: 24px;
+padding:0px 12px;
+}
+.paratext{
+font-size: 15px;
+word-spacing: 1px;
+margin: 12px 0 32px 0;
+color: hsl(212, 45%, 79%);
+padding: 0 12px;
+text-align: center;
+}
+@media screen and (max-width:400px) {
+    .container{
+        width: 80%;
+    }
+    .header{
+        font-size: 16px;
+    }
+    .paratext{
+        word-spacing: normal;
+    }
+}
