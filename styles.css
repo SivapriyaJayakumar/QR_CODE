@@ -7,9 +7,9 @@ body{
 .container{
 display: flex;
 flex-direction: column;
-margin:15% auto;
+margin:12% auto;
 background-color: hsl(0, 0%, 100%);
-width: 280px;
+width: 300px;
 border-radius: 16px;
 }
 .qr{
@@ -26,9 +26,10 @@ margin: 18px 12px ;
 .header{
 text-align: center;
 font-weight: 700;
-font-size: 18px;
+font-size: 22px;
 line-height: 26px;
-padding:0px;
+padding:0px 12px;
+margin-bottom: 18px;
 }
 .paratext{
 font-size: 15px;
